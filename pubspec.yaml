@@ -1,0 +1,46 @@
+name: pet_project
+description: A new Flutter application.
+
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0-20.0.dev <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  card_swiper: ^2.0.4
+  flutter_svg: ^1.0.3
+  social_share: ^2.2.1
+  #share_plus: ^4.0.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/pet/
+    - assets/logo/
+    - assets/other/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+          weight: 100
+    - family: MuseoCyrl
+      fonts:
+        - asset: fonts/MuseoCyrl700.otf
+          weight: 700
